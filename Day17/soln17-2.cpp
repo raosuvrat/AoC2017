@@ -1,6 +1,4 @@
-#include<vector>
 #include<iostream>
-#include<algorithm>
 #define STEPS 344
 using namespace std;
 int main() {
