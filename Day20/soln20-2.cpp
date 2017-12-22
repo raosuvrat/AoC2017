@@ -44,7 +44,7 @@ int main() {
             particles.push_back(particle_t(vin[0], vin[1], vin[2]));
         }
     }
-    for (int tick = 0; tick < 100; ++tick) {
+    for (int tick = 0; tick < 10000; ++tick) {
         vector<vector_t> positions, kill;
         for_each(particles.begin(), particles.end(), [&](auto &p){
             p.step();
