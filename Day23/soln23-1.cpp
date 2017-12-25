@@ -12,7 +12,7 @@ int main() {
         string s("");
         if(getline(infile, s)) input.push_back(s);
     }
-    int mul =0;
+    int mul = 0;
     string op, arg1, arg2;
     map<string, long long> regfile;
     for (long long i = 0; i >= 0 && i < input.size(); ++i){

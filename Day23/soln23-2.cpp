@@ -8,4 +8,3 @@ int main() {
             if (!(i % j)) { h++; break; }
     cout << h << endl;
 }
-
